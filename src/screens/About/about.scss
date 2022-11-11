@@ -1,0 +1,16 @@
+.about {
+  min-height: 90vh;
+  padding: 0 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    margin: 30px;
+  }
+  p {
+    text-indent: 15px;
+    font-size: 20px;
+  }
+}

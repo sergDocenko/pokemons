@@ -1,0 +1,27 @@
+.layout {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: darkblue;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.423);
+  menu {
+    display: flex;
+    li {
+      margin: 0 20px;
+      list-style: none;
+      a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      .active {
+        color: rgb(167, 168, 168);        
+      }
+      a:hover {
+        color: rgb(118, 119, 121);
+      }
+    }
+  }
+}

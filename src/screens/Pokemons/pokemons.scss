@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  padding: 0 3vw;
+ 
+  .pokemons {
+    background-color: rgba(217, 218, 241, 0.116);
+    border: 1px solid rgba(146, 144, 144, 0.404);
+    border-radius: 16px;
+    padding: 0 20px;
+    box-shadow: 0 3px 8px rgba(124, 124, 124, 0.27);
+    display: grid;    
+    grid-template-columns: repeat(2, minmax(40vw, 1fr));
+     min-height: 77vh;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.9fr));
+    
+  }
+  .info {
+    max-height: 76vh;
+    margin-top: 10px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  header {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        list-style: none;
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 10px 0;
+  }
+}
