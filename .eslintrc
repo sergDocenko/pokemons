@@ -4,7 +4,7 @@
     "no-console": "warn",
     "quotes": ["warn", "double"],
     "max-len": ["warn", { "code": 100 }],
-    "comma-dangle": ["warn", "always_multiline"],
+    "comma-dangle": ["warn", "always"],
     "semi": ["warn", "always"],
     "import/order": [
       "warn",
