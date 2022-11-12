@@ -11,7 +11,7 @@ const Layout = () => {
             <NavLink to={"/"}>HOME</NavLink>
           </li>
           <li>
-            <NavLink to={"pokemons"}>POKEMONS</NavLink>
+            <NavLink to={"poke"}>POKEMONS</NavLink>
           </li>
           <li>
             <NavLink to={"about"}>ABOUT ME</NavLink>
