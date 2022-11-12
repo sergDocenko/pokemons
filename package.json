@@ -29,10 +29,9 @@
       "util": "^0.12.5",
       "web-vitals": "^2.1.4"
    },
-   "homepage": "https://sergdocenko.github.io",
+  
    "scripts": {
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -b develop -d build",
+     
       "build": "react-scripts build",
       "start": "react-scripts start",
       "test": "react-scripts test",
