@@ -21,8 +21,7 @@
     max-height: 75vh;
     margin-top: 10px;
     overflow-y: auto;
-    display: grid;
-    grid-template-columns: 1fr;
+    padding: 10px;
   }
 
   header {
@@ -42,5 +41,21 @@
     justify-content: right;
     align-items: center;
     padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 1074px) {
+  .pokemons .cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.9fr));
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    
+    padding: 0 2vw;
+  }
+  
+  .pokemons .cards {
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   }
 }

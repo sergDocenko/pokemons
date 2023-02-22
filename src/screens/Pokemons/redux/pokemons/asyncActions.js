@@ -39,7 +39,7 @@ function fetchPokemonsInfo(url, params) {
 function fetchSearchPokemon(name) {
   return async function (dispatch) {
     try {
-      const response = await getPokemonByName(name);
+      const response = await getPokemonByName(name.trim());
       dispatch(fetchPokemonsSuccess(Array(response)));
     } catch (error) {
       dispatch(fetchSearchPokemonFailure());

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import Button from "../../components/Button/Button";
+import usePagination from "../../hooks/usePagination";
+import { pokemonsUrl } from "../../services/pokemons";
 import Header from "./components/Header/Header";
 import PokemonCard from "./components/PokemonCard/PokemonCard";
 import PokemonInfo from "./components/PokemonInfo/PokemonInfo";
 import usePokemons from "./hooks/usePokemons";
 import "./pokemons.scss";
-import usePagination from "../../hooks/usePagination";
-import { pokemonsUrl } from "../../services/pokemons";
 
 const Pokemons = () => {
   const {
